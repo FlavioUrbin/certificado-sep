@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de certificado</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        /* LOGO */
+        .logo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .logo img {
+            width: 120px;
+        }
+
+        .titulo-oficial {
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 6px;
+            margin-top: 30px;
+        }
+
+        .fila {
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .etiqueta {
+            color: #555;
+        }
+
+        .valor {
+            color: #222;
+            font-weight: normal;
+        }
+
+        .valido {
+            color: #1aa14a;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenedor">
+
+    <!-- LOGO SEP -->
+    <div class="logo">
+        <img src="sep.png" alt="Logo SEP">
+    </div>
+
+    <div class="titulo-oficial">
+        Secretaría de Educación Pública
+    </div>
+
+    <h2>Datos del solicitante</h2>
+
+    <div class="fila"><div class="etiqueta">CURP:</div><div class="valor">UINF961113HCSRRL00</div></div>
+    <div class="fila"><div class="etiqueta">Nombre(s):</div><div class="valor">FLAVIO CESAR</div></div>
+    <div class="fila"><div class="etiqueta">Primer apellido:</div><div class="valor">URBINA</div></div>
+    <div class="fila"><div class="etiqueta">Segundo apellido:</div><div class="valor">NURICUMBO</div></div>
+    <div class="fila"><div class="etiqueta">Nivel:</div><div class="valor">MEDIA SUPERIOR</div></div>
+    <div class="fila"><div class="etiqueta">Instituto:</div><div class="valor">CBTIS 144</div></div>
+    <div class="fila"><div class="etiqueta">Clave:</div><div class="valor">07DCT0001Z</div></div>
+    <div class="fila"><div class="etiqueta">Matrícula:</div><div class="valor">648827275</div></div>
+    <div class="fila"><div class="etiqueta">Documento probatorio:</div><div class="valor">CERTIFICADO</div></div>
+
+    <h2>Datos del documento probatorio</h2>
+
+    <div class="fila"><div class="etiqueta">Año registro:</div><div class="valor">2018</div></div>
+    <div class="fila"><div class="etiqueta">Estatus:</div><div class="valor valido">VALIDO ✅</div></div>
+    <div class="fila"><div class="etiqueta">Entidad de registro:</div><div class="valor">CHIAPAS</div></div>
+    <div class="fila"><div class="etiqueta">Municipio de registro:</div><div class="valor">TUXTLA GUTIÉRREZ</div></div>
+
+</div>
+
+</body>
+</html>
